@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #2e2e2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bulb{
+  width: 200px;
+  transition: 0.3s;
+  filter: drop-shadow(0 0 20px transparent);
+}
+
+.bulb.on{
+  filter: drop-shadow(0 0 30px #ffea00) drop-shadow(0 0 80px #ffea00);
+}
+
+.btn_container{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.bulb_btn{
+  width: 150px;
+  height: 50px;
+  font-size: 22px;
+  background: #34dab4;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+}
